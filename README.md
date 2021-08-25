@@ -1,4 +1,9 @@
-# Optimisation program to search for time-periodic solutions of the Ostrovsky equation
+# MATLAB optimisation program to search for time-periodic solutions of the Ostrovsky equation
+
+### - Attempts to minimise an objective that is zero if and only if the solution is time-periodic
+
+### - Uses a quasi-Newton BFGS and adjoint integration to compute a varitional derivative wrt an initial wavefunction
+
 OstrovskyCode and KdVCode contain all of the functions needed to optimise for time-periodic solutions.
 There are no dependancies, all functions are included within these two folders. They also contain plots and results scripts 
 that can be modified to study particular problems/cases.
