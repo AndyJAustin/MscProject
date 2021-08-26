@@ -14,4 +14,8 @@ KdV code has two BFGS functions that seek solutions on a periodic domain. One im
 wave function on evenly spaced Fourier nodes and the other using Fourier mode coefficients. 
 
 Ostrovsky code has several BFGS functions for different representations including Hermite nodes, and allows an optimatation
-of wave-packets by including a dampening region in the integration domain. 
+of wave-packets by including a dampening region in the integration domain.
+
+The letters H, C and F refer to the Hermite point, Fourier node and Fourier mode coefficient representations respectively.
+If "periodic" of "xperiodic" appeares on the end of any function name, then the functions are used in the algorithm for 
+approaching solutions that are spatially periodic. 
